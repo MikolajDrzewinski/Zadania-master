@@ -3,7 +3,7 @@ const searchInput = document.querySelector('.search-input');
 const galleryList = document.querySelector('.gallery-list');
 const galleryBottom = document.querySelector('.gallery-bootom');
 
-const API_KEY = 'YOUR_PIXABAY_API_KEY';
+const API_KEY = '53426226-a885a4a862751f2ae43543e74';
 const API_URL = 'https://pixabay.com/api/';
 const PER_PAGE = 20;
 
@@ -157,5 +157,6 @@ function openLightbox(event) {
     lightbox.appendChild(imageContainer);
     document.body.appendChild(lightbox);
 }
+
 
 searchForm.addEventListener('submit', handleFormSubmit);
